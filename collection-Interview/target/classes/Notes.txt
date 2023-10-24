@@ -1,0 +1,43 @@
+(Q) Comparable VS Comparator?
+
+   Comparable(I) used for default natural sorting. This interface is present in java.lang package
+   The implementation of Comparable is provided in actual class. i.e. Employee class, Teacher class
+   This Interface has int compareTo(Object o) method
+   
+   Comparator(I) used for customize sorting. java.util package
+   we do not touch the actual class to provide it's implementation.
+   this interface has int compare(Object o1, Object o2)
+   
+ 
+ (Q) Difference between failFast and failSafe Iterator?
+ 
+       a iterator which fail fast when we do any modification while iterating a collection
+       is called fail-fast iterator. EX: ArrayList,HashMap
+       
+       Iterator which allow modification while iterating a collection is called fail-safe
+       EX: CopyOnWriteArrayList, CopyOnWriteArraySet, ConcurrentHashMap
+       
+ (Q) What is the need of ConcurrentHashMap and how it is different from HashMap?
+ 
+      HashMap --> not thread safe
+      ConcurrentHashMap -->Thread safe
+       
+ (Q) HashTable Vs ConcurrentHashMap ?
+ 
+      Both are synchronized but in HashTable entire collection object is synchronized
+      
+      In ConcurrentHashMap only a entry/segment/bucket is synchronized so performance is improved   
+      
+ (Q) How HashMap internally works?
+ 
+      when we create HashMap then 16 buckets are created. Map<k,v> map=new HashMap<>();
+      
+      every buckets enternally use linked list
+      
+      based on the hash code of key a record is stored in bucket
+      
+      one bucket can store multiple entry/record if hashcode is same. but key should be different. 
+      means hashcode for 6 and hashcode for 21 can be same 
+           To avoid hashing collision map uses equals method. EX:  e1.equals(e2)   
+           
+      If key is null then entry will be stored in 0 bucket     
