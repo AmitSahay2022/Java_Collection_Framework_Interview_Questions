@@ -13,3 +13,4 @@ Q11 TreeMap ? <br> <br>
 
 (Q) HashTable Vs ConcurrentHashMap ? <br>
 (Q) Comparable VS Comparator? <br>
+(Q) How to convert List<Entity> to List<EntityDto> ? <br> This is used in almost every project
