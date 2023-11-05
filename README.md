@@ -17,3 +17,5 @@ Q11 TreeMap ? <br> <br>
 <br>
 Array vs Collection ? <br>
   Array= Fixed in size + no method for sorting, searching, adding, removing etc. <br>
+Why it is called Collection Framework? <br>
+   beacuse It is lots of ready made inbuilt method already available to perform operation of data. <br>
