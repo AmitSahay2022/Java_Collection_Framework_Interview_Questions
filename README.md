@@ -13,4 +13,7 @@ Q11 TreeMap ? <br> <br>
 
 (Q) HashTable Vs ConcurrentHashMap ? <br>
 (Q) Comparable VS Comparator? <br>
-(Q) How to convert List<Entity> to List<EntityDto> ? <br> This is used in almost every project
+(Q) How to convert List<Entity> to List<EntityDto> ? <br> This is used in almost every project <br>
+<br>
+Array vs Collection ? <br>
+  Array= Fixed in size + no method for sorting, searching, adding, removing etc. <br>
