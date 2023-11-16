@@ -22,6 +22,6 @@ Why it is called Collection Framework? <br>
 (Q) When we should go for List, Set, Queue and Map? <br>
     List-> Duplicates are allowed <br>
     Set-> Duplicates are not allowed, if we are creating our own custom type object (class) then we must override .equals() and hashcode() <br>
-    Queue-> If we want FIFO then. we have LinkedList and many more
+    Queue-> If we want FIFO then. we have LinkedList and many more <br>
     Map-> key value pair <br>
 
