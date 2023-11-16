@@ -24,4 +24,12 @@ Why it is called Collection Framework? <br>
     Set-> Duplicates are not allowed, if we are creating our own custom type object (class) then we must override .equals() and hashcode() <br>
     Queue-> If we want FIFO then. we have LinkedList and many more <br>
     Map-> key value pair <br>
+<br><br>
+List(I) <br>
+   <tab><tab> ArrayList, LinkedList, Vector and Stack are implementation classes<br>
+           -----------------------------------------------------------<br>
+           ArrayList -> internal Data structure is Resizable Array<br>
+           LinkedList -> Double linked list<br>
+           Vector -> same as ArrayList but it is Synchronized/Thread-safe.<br> 
+           Stack -> LIFO data structure<br>
 
