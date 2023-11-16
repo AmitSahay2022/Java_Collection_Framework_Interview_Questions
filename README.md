@@ -19,3 +19,9 @@ Array vs Collection ? <br>
   Array= Fixed in size + no method for sorting, searching, adding, removing etc. <br>
 Why it is called Collection Framework? <br>
    beacuse It has lots of ready made methods, Interfaces and classes already available to perform lots of operation of data. <br>
+(Q) When we should go for List, Set, Queue and Map? <br>
+    List-> Duplicates are allowed <br>
+    Set-> Duplicates are not allowed, if we are creating our own custom type object (class) then we must override .equals() and hashcode() <br>
+    Queue-> If we want FIFO then. we have LinkedList and many more
+    Map-> key value pair <br>
+
