@@ -32,4 +32,9 @@ List(I) <br>
            LinkedList -> Double linked list<br>
            Vector -> same as ArrayList but it is Synchronized/Thread-safe.<br> 
            Stack -> LIFO data structure<br>
-
+---------------------------------------------------------------------<br>
+Set (I) <br>
+      implementation classes are : HashSet, LinkedHashSet, TreeSet <br>
+----------------------------------------------------------------------<br>
+Map(I) <br>
+   HashMap, LinkedHashMap, HashTable, TreeMap etc. <br>
