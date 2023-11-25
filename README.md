@@ -9,7 +9,9 @@ Q7 Sort based on name if name is same then sort based on id? <br>
 Q8 what is fail-fast and fail-safe iterator? <br>
 Q9 ConcurrentHashMap vs HashMap ? <br>
 Q10 How HashMap internally works? <br>
-Q11 TreeMap ? <br> <br>
+Q11 How TreeMap internally works ? <br> <br>
+    Answer: it compares key of previously added objects to current object's key.<br>
+    "a".compareTo("b"), and if it returns +ve then add after else add before <br>
 
 (Q) HashTable Vs ConcurrentHashMap ? <br>
 (Q) Comparable VS Comparator? <br>
