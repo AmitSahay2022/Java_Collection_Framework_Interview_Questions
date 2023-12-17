@@ -1,6 +1,7 @@
 # Java_Collection_Framework_Interview_Questions
        (Q) What is java Collection framework? <br>
        it is a set of classes and interfaces to organize data and perform operations whitout writting your own data structure from scratch <br> 
+       Java Collection framework contains interfaces+classes+Algorithms(for searching and sorting). <br>
 Q1_How To Create ArrayList Which Will Not Allow Duplicates? <br>
 Q2_Create A Final List And Add Items into it? <br>
 Q3_why set doesnot allow duplicates <br>
