@@ -12,6 +12,12 @@ Q7 Sort based on name if name is same then sort based on id? <br>
 Q8 what is fail-fast and fail-safe iterator? <br>
 Q9 ConcurrentHashMap vs HashMap ? <br>
 Q10 How HashMap internally works? <br>
+<tab><tab> It store key value pairs. key should be unique. where each key is an object and each value is an object <br>
+if we are using custom object as a key than that object's class must have overridden hashcode and equals() method <br>
+if hashcode of two keys are same than equals method is used to differentiate kays <br>
+if key is same than previous value will be replaced with new value.<br>
+one bucket can store any number of key-value pairs as a linked list<br>
+internal data structure is hashtable<br>
 Q11 How TreeMap internally works ? <br> <br>
     Answer: it compares key of previously added objects to current object's key.<br>
     "a".compareTo("b"), and if it returns +ve then add after else add before <br>
